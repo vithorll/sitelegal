@@ -268,7 +268,7 @@ main {
     display: flex;
     flex: 1;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: flex-start;
 }
 
 .artistas-rt .art-box {
@@ -300,8 +300,8 @@ main {
 }
 
 .artistas-rt .art-box .imgt img {
-    width: 180px;
-    height: 180px;
+    width: 190px;
+    height: 190px;
 }
 
 .artistas-rt h1 {
@@ -337,7 +337,8 @@ main {
     display: flex;
     flex: 1;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: flex-start;
+    align-items: center;
 }
 
 .playlists-fpv .fpv-box {
@@ -460,6 +461,7 @@ footer {
 
 .user-main-container {
     width: 100%;
+    max-width: 1260px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -517,7 +519,7 @@ footer {
 
 .user-main-container .legenda1 {
     margin-top: 100px;
-    margin-left: 60px;
+    margin-left: 00px;
     width: 100%;
     max-width: 1315px;
 }
